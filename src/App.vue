@@ -7,4 +7,7 @@
 </template>
 
 <style lang="scss">
+  body {
+    font-family: Gilroy;
+}
 </style>

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Gilroy;
+    src: url('/src/assets/fonts/Gilroy/gilroy-semibold.ttf');
+    src: url('/src/assets/fonts/Gilroy/gilroy-medium.ttf');
+    src: url('/src/assets/fonts/Gilroy/gilroy-regular.ttf');
+    src: url('/src/assets/fonts/Gilroy/gilroy-heavy.ttf');
+    src: url('/src/assets/fonts/Gilroy/gilroy-bold.ttf');
+}
+@font-face {
+    font-family: Cambay;
+    src: url('/src/assets/fonts/Cambay/Cambay-Bold.ttf');
+    src: url('/src/assets/fonts/Cambay/Cambay-BoldItalic.ttf');
+    src: url('/src/assets/fonts/Cambay/Cambay-Italic.ttf');
+    src: url('/src/assets/fonts/Cambay/Cambay-Regular.ttf');
+}
+@font-face {
+    font-family: Comfortaa;
+    src: url('/src/assets/fonts/Comfortaa/Comfortaa-Bold.ttf');
+    src: url('/src/assets/fonts/Comfortaa/Comfortaa-Light.ttf');
+    src: url('/src/assets/fonts/Comfortaa/Comfortaa-Medium.ttf');
+    src: url('/src/assets/fonts/Comfortaa/Comfortaa-Regular.ttf');
+    src: url('/src/assets/fonts/Comfortaa/Comfortaa-SemiBold.ttf');
+}
