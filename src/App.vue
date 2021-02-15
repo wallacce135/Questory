@@ -11,8 +11,9 @@
     padding: 0;
   }
   #nav{
-    height: 100px;
+    height: 85px;
     text-align: center;
+    background: #9ED186;
   }
   .link
   {
