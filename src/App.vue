@@ -1,8 +1,8 @@
 <template>
-  <div id="nav">
+  <!-- <div id="nav">
     <router-link class="link" to="/">Home</router-link> |
     <router-link class="link" to="/about">About</router-link>
-  </div>
+  </div> -->
   <router-view/>
 </template>
 <style lang="scss">
@@ -11,7 +11,6 @@
     padding: 0;
   }
   #nav{
-    height: 100px;
     text-align: center;
   }
   .link
