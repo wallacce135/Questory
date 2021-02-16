@@ -9,6 +9,7 @@
         <p><input type="submit" value="Войти"></p>
       </form>
       <router-link class="link" to="/Registration">Регистрация</router-link>
+      <router-link class="link" to="/Profile">Профиль</router-link>
     </div>
   </div>
 </template>

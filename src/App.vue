@@ -12,6 +12,7 @@
   }
   #nav{
     text-align: center;
+    background: #9ED186;
   }
   .link
   {
