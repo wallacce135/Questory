@@ -11,6 +11,7 @@
                 <p><input type="email" placeholder="Эл. почта"></p>
                 <p><input type="password" placeholder="Пароль"></p>
                 <p><input type="password" placeholder="Повторите пароль"></p>
+                <p><input type="submit" value="Зарегистироваться"></p>
             </form>
         </div>
     </div>
@@ -22,6 +23,7 @@
     font-family: Gilroy;
     background: linear-gradient(118.61deg, #64AA43 -20.89%, rgba(100, 170, 67, 0) 67.65%), linear-gradient(222.28deg, #9ED186 23.81%, rgba(158, 209, 134, 0) 92.86%), #ACDF9B;
     width: 100%;
+    padding-bottom: 50px;
     // height: 100vh;
     p > input {
         border-radius: 11px;

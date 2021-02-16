@@ -5,7 +5,7 @@
       <form class="log-form">
         <p><input placeholder="Логин"><img src="/img/icons/person.png"></p>
         <p><input placeholder="Пароль"><img src="/img/icons/lock.png"></p>
-        <p><input type="checkbox"><label>Запомнить меня</label></p>
+        <p class="checkbox-type"><input type="checkbox"><label>Запомнить меня</label></p>
         <p><input type="submit" value="Войти"></p>
       </form>
       <router-link class="link" to="/Registration">Регистрация</router-link>
@@ -21,6 +21,7 @@
   .Login {
     background-image: url('/img/greenBack.png');
     width:100%;
+    height: 100vh;
     font-family: Gilroy;
     font-size: 18px;
     input + img {
@@ -57,8 +58,26 @@
     input:active {
       outline: none;
     }
-    input[type="checkbox"] {
-      display: none;
+    .checkbox-type {
+      display: flex;
+      input {
+        display: none;
+        align-items: baseline;
+      }
+      label::before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 35px;
+        height: 35px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+        border-radius: 5px;
+        margin-right: 16px;
+      }
+      label::before:checked {
+        background: #F24848;
+      }
     }
     input[type="submit"] {
       width: 100%;
@@ -69,15 +88,6 @@
       color: #64AA43;
       border-radius: 40px;
       background: rgba(0, 0, 0, 0);
-    }
-    label::before {
-      content: '';
-      width: 35px;
-      height: 35px;
-      background: #FFF;
-      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
-      border-radius: 5px;
-      margin: 0px 13px;
     }
     input:invalid, input:required {
       border: #F24848 2px solid;
