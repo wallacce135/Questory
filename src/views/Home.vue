@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="Login">
     <div class="primary-log">
       <h1>Questory</h1>
       <form class="log-form">
@@ -18,12 +18,21 @@
 </script>
 
 <style lang="scss">
-  .home {
+  .Login {
     background-image: url('/img/greenBack.png');
     width:100%;
-    height: 100vh;
     font-family: Gilroy;
     font-size: 18px;
+    input + img {
+    padding: 17px;
+    height: 30px;
+    border-radius: 0 11px 11px 0;
+    background: #fff;
+    }
+    input:not([type="checkbox"]):not([type="submit"]) {
+      width: calc(100% - 56.17px);
+      border-radius: 11px 0 0 11px;
+    }
   }
   .log-form {
     p {
@@ -34,10 +43,8 @@
     }
     input:not([type="checkbox"]):not([type="submit"]) {
       padding:20px;
-      width: calc(100% - 56.17px);
-      border-radius: 11px 0 0 11px;
       border: none;
-      box-shadow: 0 4px 10px rgba(130, 127, 127, 0.25);
+      box-shadow: 0px 4px 10px rgba(130, 127, 127, 0.25);
       font-size: 20px;
       font-family: 'Comfortaa';
       color: #64AA43;
@@ -72,6 +79,9 @@
       border-radius: 5px;
       margin: 0px 13px;
     }
+    input:invalid, input:required {
+      border: #F24848 2px solid;
+    }
   }
   .primary-log {
     width: 400px;
@@ -83,12 +93,6 @@
     font-size: 96px;
     margin-bottom: 60px;
     text-align: center;
-  }
-  img {
-    padding: 17px;
-    height: 30px;
-    border-radius: 0 11px 11px 0;
-    background: #fff;
   }
   a {
     text-align: right;
