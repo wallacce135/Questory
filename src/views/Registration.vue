@@ -11,6 +11,7 @@
                 <p><input type="email" placeholder="Эл. почта"></p>
                 <p><input type="password" placeholder="Пароль"></p>
                 <p><input type="password" placeholder="Повторите пароль"></p>
+                <p class="checkbox-type" ><input id="remember" type="checkbox"><label for="remember" style="user-select:none">Вы даете согласие на обработку персональных данных</label></p>
                 <p><input type="submit" value="Зарегистироваться"></p>
             </form>
         </div>
@@ -28,6 +29,17 @@
     p > input {
         border-radius: 11px;
         width: 100%;
+    }
+    p:hover b {
+        animation: backd-go 1s forwards;
+    }
+    @keyframes backd-go {
+        0%  {
+            background: rgba(246, 163, 103, 0);
+        }
+        100% {
+            background: rgba(246, 163, 103, 1);
+        }
     }
 }
 </style>
