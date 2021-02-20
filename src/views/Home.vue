@@ -16,6 +16,13 @@
             <p>Какое-то описание</p>
           </figcaption>
         </figure>
+        <figure class="quest-preview">
+          <img src="/img/greenBack.png">
+          <figcaption>
+            <span>Квест1</span>
+            <p>Какое-то описание</p>
+          </figcaption>
+        </figure>
     </div>
   </main>
 </template>
@@ -47,12 +54,11 @@ export default {
     align-items: center;
   }
   .quest-preview {
-    width: calc(40%);
+    width: calc(48%);
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
     overflow: hidden;
-    height: 267px;
     img {
       width: calc(100% - 26px);
       padding: 13px;
@@ -62,7 +68,7 @@ export default {
       font-weight: bold;
     }
     figcaption {
-      padding-left: 20px;
+      padding: 0px 20px 20px 20px;
     }
   }
 }
