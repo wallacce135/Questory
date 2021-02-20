@@ -1,9 +1,5 @@
 <template>
-  <header>
-    <div class="container">
-      <span><h1>Q</h1></span>
-    </div>
-  </header>
+  <Header></Header>
   <main class="container">
     <div>
       <input type="text">
@@ -16,23 +12,21 @@
 </template>
 
 <script>
+import Header from '.././components/Header.vue'
+
+export default {
+  name: 'Home',
+  components: {
+    Header
+  }
+}
 </script>
 
 <style lang="scss">
-header {
-  height: 85px;
-  width: 100%;
-  background: #9ED186;
-}
 .container {
   width: calc(100vw / 1.6);
   margin: 0 auto;
   display: flex;
-}
-.logo a {
-  font-size: 64px;
-  font-family: Combay;
-  text-decoration: none;
 }
 ul {
   list-style: none;
