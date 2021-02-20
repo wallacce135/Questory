@@ -1,9 +1,6 @@
 @font-face {
     font-family: Gilroy;
-    src: local('Gilroy-semibold'), url('~@/assets/fonts/Gilroy/gilroy-semibold.ttf'),
-    local('Gilroy-medium'), url('~@/assets/fonts/Gilroy/gilroy-medium.ttf'),
-    local('Gilroy-heavy'), url('~@/assets/fonts/Gilroy/gilroy-heavy.ttf'),
-    local('Gilroy-bold'), url('~@/assets/fonts/Gilroy/gilroy-bold.ttf')
+    src: local('Gilroy-medium'), url('~@/assets/fonts/Gilroy/gilroy-medium.ttf'),
 }
 @font-face {
     font-family: Cambay;
