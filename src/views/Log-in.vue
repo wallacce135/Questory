@@ -1,25 +1,27 @@
 <template>
-  <div class="Login">
+<div id="Login">
     <div class="primary-log">
       <h1>Questory</h1>
-      <form class="log-form">
-        <p><input placeholder="Логин"><img src="/img/icons/person.png"></p>
-        <p><input placeholder="Пароль"><img src="/img/icons/lock.png"></p>
-        <p class="checkbox-type" ><input id="remember" type="checkbox"><label for="remember" style="user-select:none">Запомнить меня</label></p>
-        <p><input type="submit" value="Войти"></p>
-      </form>
+      <Login></Login>
       <router-link class="link" to="/auth/registration">Регистрация</router-link>
       <router-link class="link" to="/Profile">Профиль</router-link>
       <router-link class="link" to="/">Домой</router-link>
     </div>
-  </div>
+</div>
 </template>
 
 <script>
+import Login from '.././components/Login.vue'
+export default {
+  name: 'Log-in',
+  components: {
+    Login
+  }
+}
 </script>
 
 <style lang="scss">
-  .Login {
+  #Login {
     background-image: url('/img/greenBack.png');
     width:100%;
     height: 100vh;
