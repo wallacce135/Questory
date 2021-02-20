@@ -1,9 +1,7 @@
 <template>
   <Header></Header>
   <main class="container">
-    <div>
-      <input type="text">
-    </div>
+    <Search></Search>
     <ul class="categories">
       <li><a href="#">Начатые</a></li>
       <li><a href="#">Законченные</a></li>
@@ -13,16 +11,21 @@
 
 <script>
 import Header from '.././components/Header.vue'
+import Search from '.././components/Search.vue'
 
 export default {
   name: 'Home',
   components: {
-    Header
+    Header,
+    Search
   }
 }
 </script>
 
 <style lang="scss">
+* {
+  font-family: Gilroy;
+}
 .container {
   width: calc(100vw / 1.6);
   margin: 0 auto;

@@ -12,12 +12,13 @@
 
 <style scoped>
 header {
-  height: 85px;
+  height: 60px;
   width: 100%;
   background: #9ED186;
 }
 h1 a {
-  font-size: 64px;
+  font-size: 54px;
+  line-height: 60px;
   font-family: Gilroy;
   text-decoration: none;
   color: #fff;

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Gilroy;
+    src: local('Gilroy-semibold'), url('~@/assets/fonts/Gilroy/gilroy-semibold.ttf'),
+    local('Gilroy-medium'), url('~@/assets/fonts/Gilroy/gilroy-medium.ttf'),
+    local('Gilroy-heavy'), url('~@/assets/fonts/Gilroy/gilroy-heavy.ttf'),
+    local('Gilroy-bold'), url('~@/assets/fonts/Gilroy/gilroy-bold.ttf')
+}
+@font-face {
+    font-family: Cambay;
+    src: local('Cambay-bold'), url('~@/assets/fonts/Cambay/Cambay-Bold.ttf'),
+    local('Cambay-BoldItalic'), url('~@/assets/fonts/Cambay/Cambay-BoldItalic.ttf'),
+    local('Cambay-Italic'), url('~@/assets/fonts/Cambay/Cambay-Italic.ttf'),
+    local('Cambay-Italic'), url('~@/assets/fonts/Cambay/Cambay-Italic.ttf');
+}
+@font-face {
+    font-family: Comfortaa;
+    src: local('Comfortaa-bold'), url('~@/assets/fonts/Comfortaa/Comfortaa-Bold.ttf'),
+    local('Comfortaa-Light'), url('~@/assets/fonts/Comfortaa/Comfortaa-Light.ttf'),
+    local('Comfortaa-Medium'), url('~@/assets/fonts/Comfortaa/Comfortaa-Medium.ttf'),
+    local('Comfortaa-Regular'), url('~@/assets/fonts/Comfortaa/Comfortaa-Regular.ttf'),
+    local('Comfortaa-SemiBold'), url('~@/assets/fonts/Comfortaa/Comfortaa-SemiBold.ttf');
+}

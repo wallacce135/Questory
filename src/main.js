@@ -3,6 +3,7 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+import './css/fonts.css'
 /*
 import Axios from 'axios'
 Vue.prototype.$http = Axios;

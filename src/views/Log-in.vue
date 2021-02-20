@@ -25,7 +25,6 @@ export default {
     background-image: url('/img/greenBack.png');
     width:100%;
     height: 100vh;
-    font-family: Gilroy;
     font-size: 18px;
     input + img {
     padding: 17px;
