@@ -9,20 +9,7 @@
       </ul>
     </div>
     <div id="quests" class="two-col">
-        <figure class="quest-preview">
-          <img src="/img/greenBack.png">
-          <figcaption>
-            <span>Квест1</span>
-            <p>Какое-то описание</p>
-          </figcaption>
-        </figure>
-        <figure class="quest-preview">
-          <img src="/img/greenBack.png">
-          <figcaption>
-            <span>Квест1</span>
-            <p>Какое-то описание</p>
-          </figcaption>
-        </figure>
+        <QuestCard></QuestCard>
     </div>
   </main>
 </template>
@@ -30,12 +17,14 @@
 <script>
 import Header from '.././components/Header.vue'
 import Search from '.././components/Search.vue'
+import QuestCard from '.././components/QuestCard.vue'
 
 export default {
   name: 'Home',
   components: {
     Header,
-    Search
+    Search,
+    QuestCard
   }
 }
 </script>
